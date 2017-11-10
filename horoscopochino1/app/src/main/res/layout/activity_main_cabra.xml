@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sebax.horoscopo_chino.MainCabraActivity">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text='Bienvenido, Signo"cabra"' />
+
+    <ImageView
+        android:id="@+id/imagen-cabra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cabra"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="337dp" />
+
+    <TextView
+        android:id="@+id/texto-cabra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Se sentirán optimistas y lograrán una posición estable y segura. Deberán esforzarse pero alcanzarán grandes metas ya que contarán con una importante claridad mental para actuar en el momento oportuno. Habrá novedades en asuntos inmobiliarios y todo lo relacionado con la vivienda. Reparaciones o renovaciones dentro del hogar, podrán contar con mayor comodidad y confort. Un cambio importante en la forma de comunicarse les permitirá establecer vínculos más profundos. Podrán viajar, mudarse y recibir la llegada de un gran amor. En la pareja, deberán esforzarse por escuchar al otro, comprender sus necesidades y no querer imponer siempre sus puntos de vista."
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="98dp" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sebax.horoscopo_chino.MainJabaliActivity">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="1800dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text='Bienvenido, Signo"jabali"' />
+    <ImageView
+        android:id="@+id/imagen-jabali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        app:srcCompat="@drawable/jabali" />
+
+    <TextView
+        android:id="@+id/texto-jabali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/texto-jabali"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="11dp"
+        android:text="Será un buen año para el Jabalí, el Gallo lo sabrá guiar por el camino de su propia evolución. Su energía de fuego los invitará a tomar el control de sus vidas y a actuar con energía y decisión. El trabajo en equipo, la vida social y los amigos ocuparán un lugar preponderante. Este año se movilizan viejos sueños, se aclaran las ideas y muchos serán los que encuentren el verdadero amor. El autoconocimiento y la búsqueda interior serán la clave para desprenderse de todo aquello que impide el avance. Más libres y conscientes, tendrán la posibilidad de ver florecer su vida de relación. Vivirán el amor a pleno con momentos de gran sensualidad, romanticismo y mucho placer. " />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.sebax.horoscopo_chino.MainLiebreActivity">
+
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text='Bienvenido, Signo"liebre"' />
+    <ImageView
+        android:id="@+id/imagen-liebre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="false"
+        android:cropToPadding="false"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/liebre" />
+
+    <TextView
+        android:id="@+id/texto-liebre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imagen-liebre"
+        android:layout_alignParentStart="true"
+        android:text="Este año surgirán nuevas oportunidades pero deberán estar atentos al tomar decisiones ya que la energía del Gallo, signo opuesto y complementario del Gato, exigirá compromiso, enfoque y determinación. La intuición que tienen para captar el fondo de las situaciones, les ayudará enormemente este año y sabrán salir siempre de la mejor manera, caer siempre parados. Aprenderán mucho a través de las asociaciones y alianzas que establezcan, reconocerán sus verdaderos propósitos y necesidades y sabrán poner límites cuando sea necesario. Se definen situaciones en la pareja, que podrá afianzarse o terminar para siempre. Pasarán momentos de soledad, lo cual no será para nada malo, ya que hay una gran oportunidad de encontrar el amor verdadero este año. "
+        android:textSize="15sp" />
+
+</LinearLayout>

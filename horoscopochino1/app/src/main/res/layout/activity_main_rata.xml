@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    android:orientation="vertical"
+    tools:context="com.example.sebax.horoscopo_chino.MainRataActivity">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text='Bienvenido, Signo"raton"' />
+    <ImageView
+        android:id="@+id/imagen-rata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto-rata"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:background="@android:color/background_dark"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/rata" />
+
+    <TextView
+        android:id="@+id/texto-rata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Quienes han nacido en un año Rata, se verán beneficiados con la llegada del Gallo, los negocios y el trabajo serán muy ventajosos. Se trata de una etapa de fertilidad ideal para comenzar nuevos proyectos o bien renovar la vida laboral. La Rata es rápida y con su inteligencia sabrá aprovechar las oportunidades que el año Gallo le brinda. Pero deberán ser disciplinados y seguir las reglas. Trabajadores y resolutivos, comenzarán un año muy intenso y ajetreado, pero tienen recursos y cualidades para afrontarlo con éxito. Para el amor, será un período exquisito, dejarán de lado el pasado, sanarán viejas heridas y estarán predispuestos a construir relaciones sanas y sinceras."
+        android:textSize="15sp" />
+
+</LinearLayout>

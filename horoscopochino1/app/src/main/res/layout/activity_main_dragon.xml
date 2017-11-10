@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sebax.horoscopo_chino.MainDragonActivity">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text='Bienvenido, Signo"Dragon"' />
+    <ImageView
+        android:id="@+id/imagen-dragon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/dragon"
+
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <TextView
+        android:id="@+id/texto-dragon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buen tiempo para aprender, estudiar, publicitar o promocionarse. El peligro estará en querer hacer muchas cosas al mismo tiempo y disgregarse. Deberán focalizar los esfuerzos y no dudar a la hora de tomar decisiones radicales. Habrá mucha actividad pero poco tiempo para disfrutar en casa, lo cual puede hacerles perder el buen humor. Será imprescindible disponer de una magnífica organización, planificar muy bien el tiempo y combinar el trabajo con las necesidades más espirituales. Necesitarán cultivar la paciencia y evitar cualquier situación conflictiva en las relacione. Es momento de hacer una evaluación y decidir ir más despacio."
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="85dp" />
+
+</LinearLayout>

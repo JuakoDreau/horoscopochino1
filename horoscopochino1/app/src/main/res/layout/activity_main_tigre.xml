@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sebax.horoscopo_chino.MainTigreActivity">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text='Bienvenido, Signo"tigre"' />
+    <ImageView
+        android:id="@+id/imagen-tigre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tigre"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:id="@+id/texto-tigre"
+        android:layout_width="373dp"
+        android:layout_height="wrap_content"
+        android:text="Para quienes nacieron bajo la influencia del Tigre, será un mejor año que el anterior, Mono. Sin embargo, no deberán asumir grandes riesgos, sino más bien trabajar y conservar lo que hasta ahora han conseguido. Excelente año para manifestar el costado más artístico y creativo del signo. Dedicar tiempo a explorar nuevas alternativas de expresión será sanador y ayudará a compensar las extensas horas de trabajo que les espera. En el amor comenzará complicado pero mejorará a medida que el año avance. Cuidado con la tendencia a pensar siempre en el futuro y que eso impida trabajar el presente para que las cosas ocurran. Excelentes novedades en torno al hogar y la familia."
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="121dp" />
+
+</LinearLayout>

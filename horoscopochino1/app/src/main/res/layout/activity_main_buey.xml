@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sebax.horoscopo_chino.MainBueyActivity">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text='Bienvenido, Signo"buey"' />
+
+    <ImageView
+        android:id="@+id/imagen-buey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="false"
+        app:srcCompat="@drawable/buey"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="347dp" />
+
+    <TextView
+        android:id="@+id/texto-buey"
+        android:layout_width="380dp"
+        android:layout_height="233dp"
+        android:layout_gravity="bottom"
+        android:text="El Buey se verá beneficiado este año por la energía afín del Gallo. Ambos son pragmáticos y prefieren no tomar ningún riesgo. Las personas nacidas un año Buey poseen metas claras, se esfuerzan por alcanzarlas y disfrutan de sus logros. Este año se liberarán de viejas ataduras y emprenderán un camino de superación, tanto en lo personal como en el ámbito laboral y material. Será un año muy productivo pero deberán ser más flexibles, de eso modo podrán abrirse a nuevos horizontes y explorar otros mundos. Las uniones estables y los romances que se inicien estarán favorecidos pero deberán evitar perder la paciencia o situarse en lugares rígidos de exigencia hacia el otro. "
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="99dp" />
+
+</LinearLayout>

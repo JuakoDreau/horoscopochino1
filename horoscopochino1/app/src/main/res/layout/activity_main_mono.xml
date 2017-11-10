@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sebax.horoscopo_chino.MainMonoActivity">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text='Bienvenido, Signo"mono"' />
+    <ImageView
+        android:id="@+id/imagen-mono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mono"
+        tools:layout_editor_absoluteX="86dp"
+        tools:layout_editor_absoluteY="334dp" />
+
+    <TextView
+        android:id="@+id/texto-mono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para quienes han nacido en un año Mono, será una etapa de concreciones, ideal para desarrollar y concluir proyectos iniciados el año anterior. Durante 2016, el año del Mono, han comenzado una nueva etapa, un nuevo ciclo de 12 años. El Gallo les pedirá ahora concreciones materiales, responsabilidad y empeño. Los cambios se darán en la manera de administrar las energías y el tiempo, adaptarse a ciertas rutinas será la clave. En el amor, la tendencia será a establecer un compromiso estable y renovarán los votos en la pareja. Si estás sola, podrán iniciar un romance intenso con alguien en quien encuentren comprensión, tranquilidad y confianza."
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+</LinearLayout>

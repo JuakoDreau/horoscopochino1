@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sebax.horoscopo_chino.MainGalloActivity">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text='Bienvenido, Signo"gallo"' />
+    <ImageView
+        android:id="@+id/imagen-gallo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/gallo"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="331dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="La energía del fuego será la encargada de dar vida a un año intenso y lleno de positivismo para todos los Gallo. Con una actitud más práctica y decidida, sentirán que nada está fuera de su alcance. Sabrán administrar su intensa energía con más inteligencia y tendrán la posibilidad de conocer gente influyente que los beneficiará en su profesión. Crecerán las responsabilidades, pero hasta las cosas más complicadas serán fáciles de realizar. El desafío estará en saber aceptar los buenos consejos de gente más experimentada y aprender a delegar cuando las situaciones los desborden. Brillarán con encanto despertando grandes pasiones. Las parejas se encenderán, pudiendo reavivar la relación o bien poniéndola en crisis, dependerá de cómo equilibren sus emociones. Los Gallos solitarios tendrán grandes oportunidades de nuevas conquistas."
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+</LinearLayout>

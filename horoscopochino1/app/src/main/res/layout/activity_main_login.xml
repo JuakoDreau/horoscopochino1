@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sebax.horoscopo_chino.MainActivity">
+
+
+  <EditText
+      android:id="@+id/user"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentTop="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="75dp"
+      android:ems="10"
+      android:hint="User"
+      android:inputType="textEmailAddress"
+      android:layout_centerInParent="true"/>
+  <EditText
+      android:id="@+id/password"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/user"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="44dp"
+      android:layout_weight="1"
+      android:ems="10"
+      android:hint="Password"
+      android:inputType="textPassword"
+      android:layout_centerInParent="true"/>
+
+
+  <Button
+      android:id="@+id/login"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/password"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="107dp"
+      android:text="Enviar"
+      android:layout_centerInParent="true"
+      android:onClick="login"/>
+
+  <Button
+      android:id="@+id/registro"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/login"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="32dp"
+      android:text="Registrarse"
+      android:layout_centerInParent="true"
+      android:onClick="registrar"/>
+
+</RelativeLayout>

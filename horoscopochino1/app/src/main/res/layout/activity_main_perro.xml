@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sebax.horoscopo_chino.MainPerroActivity">
+
+    <TextView
+        android:id="@+id/saludo"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:text='Bienvenido, Signo"perro"' />
+    <ImageView
+        android:id="@+id/imagen-perro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/perro" />
+
+    <TextView
+        android:id="@+id/texto-perro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imagen-perro"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="24dp"
+        android:text="Al comenzar el año deberán ir sin apresuramientos. No será conveniente realizar cambios profundos ni definitivos, sino más bien esperar para tomar grandes decisiones. En 2017 la independencia será su foco pero deberán tener especial cuidado con los conflictos a nivel laboral, con perder la paciencia. Trabajarán para labrarse un buen futuro profesional, del cual recogerá los frutos en 2018, que será el año del Perro. Será un año excitante y no todo serán dificultades: obtendrán algunos triunfos importantes. Este año Gallo, deberán ser más firmes en sus puntos de vista y no dejarse llevar con facilidad por las opiniones ajenas. Aceptación y mayor independencia serán la clave para vivir en armonía el amor y la vida en pareja." />
+
+</LinearLayout>
